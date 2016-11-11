@@ -11,7 +11,7 @@ class AbstractLinkedList(object):
         raise NotImplementedError()
 
     def __len__(self):
-        raise NotImplementedError()
+        return len(self)
 
     def __iter__(self):
         raise NotImplementedError()
@@ -35,7 +35,7 @@ class AbstractLinkedList(object):
         raise NotImplementedError()
 
     def count(self):
-        raise NotImplementedError()
+        return __len__(self)
 
     def pop(self, index=None):
         raise NotImplementedError()

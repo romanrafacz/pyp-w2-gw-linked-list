@@ -18,3 +18,12 @@ class Node(object):
 
     def __repr__(self):
         return str(self.elem)
+        
+    def get_data(self):
+        return self.elem
+        
+    def get_next(self):
+        return self.next
+        
+    def set_next(self, new_next):
+        self.next = new_next
